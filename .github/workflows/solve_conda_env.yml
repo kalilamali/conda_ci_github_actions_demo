@@ -20,7 +20,6 @@ jobs:
     - name: Format with black
       run: |
         $CONDA/bin/black *.py
-        $CONDA/bin/black */*.py
 
     - name: Check conda dependencies are compatible with the main program
       run: |
